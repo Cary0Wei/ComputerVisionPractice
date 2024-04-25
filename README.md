@@ -6,7 +6,7 @@
 
 ##### 算法
 
-本实验要使用的算法类似于 Brown 和 Lowe 在 2007 年论文[Automatic Panoramic Image Stitching with Invariant Features](https://www.doc88.com/p-9062359287397.html)中提出的方法。其中算法已被opencv实现且可以直接调用`cv2.Stitcher_create()`接口得到。
+本实验要使用的算法类似于 Brown 和 Lowe 在 2007 年论文[Automatic Panoramic Image Stitching with Invariant Features](https://www.doc88.com/p-9062359287397.html)中提出的方法。其中算法已被opencv实现且可以直接调用`cv2.Stitcher_create()`接口得到 。
 
 
 
