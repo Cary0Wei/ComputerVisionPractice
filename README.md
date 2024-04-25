@@ -14,7 +14,7 @@
 
 本实验使用图片实例：
 
-![1](D:\Coding\homework1\README.assets\1.png)
+<img src=".\README.assets\1.png" alt="1" style="zoom:25%;" />
 
 由五张图片组成，`./picture6`文件下保存，`main.ipynb`所用示例也是这五张图片
 
@@ -24,7 +24,7 @@
 
 直接调用 `cv2.Stitcher_create()` 对图片处理得到：
 
-![2](D:\Coding\homework1\README.assets\2.png)
+<img src=".\README.assets\2.png" alt="2" style="zoom:25%;" />
 
 可以见图片周围很多黑边，该输出目录为`.\output\orioutput6.jpg`
 
@@ -44,7 +44,7 @@ cnts = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[0
 
 可以得到 `.\output\modoutput6.jpg`
 
-![3](D:\Coding\homework1\README.assets\3.png)
+![3](.\assets\3.png)
 
 可以看见图片变小很多，所以改进仍然存在缺点
 
