@@ -44,7 +44,7 @@ cnts = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[0
 
 可以得到 `.\output\modoutput6.jpg`
 
-![3](.\assets\3.png)
+<img src="D:\Coding\homework1\assets\3.png" alt="3" style="zoom:25%;" />
 
 可以看见图片变小很多，所以改进仍然存在缺点
 
